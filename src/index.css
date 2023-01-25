@@ -1,13 +1,145 @@
+:root {
+  --mainOrange: rgb(244, 129, 87);
+  --darkOrange: rgb(240, 88, 23);
+  --lightOrange: rgb(243, 169, 142);
+  --mainPurple: rgb(57, 79, 184);
+  --kanitFont: "Kanit", sans-serif;
+}
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  background: url("./images/mars-bg2.jpg") no-repeat center center fixed;
+  background-size: cover;
+  /* background-repeat: no-repeat; */
+  /* position: fixed; */
+  /* margin: 0; */
+  /* top: 0; */
+  /* width: 100vw; */
+  /* height: 100vh; */
+  background-position: center;
+  /* font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif; */
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
+}
+
+.orange-text {
+  color: var(--mainOrange);
+}
+
+.dark-orange-text {
+  color: var(--darkOrange);
+}
+
+.light-orange-text {
+  color: var(--lightOrange);
+}
+
+.big-text {
+  font-size: 50px;
+}
+
+/* ///////////
+***NAVBAR***
+////////// */
+.navbar {
+  color: white;
+  width: 100vw;
+  height: 5rem;
+  display: flex;
+  padding: 0.5rem;
+  margin-top: 0.75rem;
+}
+
+.navbar-header {
+  margin-left: 1.2rem;
+  font-size: 1.5rem;
+  font-family: "Press Start 2P", cursive;
+}
+
+.nav-span {
+  color: var(--mainOrange);
+}
+
+.nav-links {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+.nav-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.nav-links a:hover {
+  color: var(--mainOrange);
+}
+
+.nav-two-span {
+  color: var(--mainPurple);
+}
+
+.nav-two-links {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+}
+.nav-two-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.nav-two-links:hover {
+  color: var(--mainPurple);
+}
+
+/* HOME PAGE */
+
+.home-intro {
+  font-family: var(--kanitFont);
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  margin-top: 5rem;
+  margin-left: 5rem;
+  color: white;
+}
+
+.home-info {
+  font-family: var(--kanitFont);
+  width: 35vw;
+}
+
+.home-btn {
+  border: 1px solid black;
+  border-radius: 5px;
+  padding: 0.3rem;
+  transition: all 0.3s linear;
+  background-color: var(--lightOrange);
+}
+
+.home-btn:hover {
+  background-color: var(--mainOrange);
+  border: 1px solid white;
+  color: white;
 }
