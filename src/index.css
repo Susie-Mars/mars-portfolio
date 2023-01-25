@@ -4,6 +4,7 @@
   --lightOrange: rgb(243, 169, 142);
   --mainPurple: rgb(57, 79, 184);
   --mainGreen: rgb(21, 155, 34);
+  --mainFuschia: rgb(172, 16, 143);
   --kanitFont: "Kanit", sans-serif;
 }
 
@@ -132,6 +133,31 @@ code {
 .nav-three-links a:hover {
   color: var(--mainGreen);
 }
+.nav-four-span {
+  color: var(--mainFuschia);
+}
+
+.nav-four-links {
+  display: flex;
+  font-family: "Raleway", sans-serif;
+  margin-bottom: 2rem;
+}
+.nav-four-links a {
+  text-transform: capitalize;
+  text-decoration: none;
+  font-weight: bold;
+  margin-right: 0.5rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  font-size: 1rem;
+  padding: 0.25rem 0.5rem;
+  color: white;
+  transition: all 0.3s linear;
+}
+
+.nav-four-links a:hover {
+  color: var(--mainFuschia);
+}
 
 /* HOME PAGE */
 
@@ -227,4 +253,41 @@ code {
   min-height: 100%;
   position: absolute;
   overflow-x: hidden;
+}
+
+/* CONTACT PAGE */
+.contact-bg {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("./images/pink-galaxy.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 100vw;
+  min-height: 100%;
+  position: absolute;
+  overflow-x: hidden;
+}
+
+.contact-info {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  color: white;
+  width: fit-content;
+  padding: 2rem;
+  font-family: var(--kanitFont);
+  border: 1px dotted white;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.contact-links {
+  text-decoration: none;
+  transition: all 0.3s linear;
+  color: white;
+}
+
+.contact-links:hover {
+  color: var(--mainFuschia);
 }

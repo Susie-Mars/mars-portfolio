@@ -11,8 +11,8 @@ const Home = () => {
         <h4 className="dark-orange-text">Full Stack Developer</h4>
         <div className="home-info">
           <p>
-            I'm a full stack software developer with knowledge in Javascript,
-            Python, and C# and a strong passion for all things web design.
+            I'm a full stack software developer with knowledge in C#, MERN, and
+            Python and a strong passion for all things web design.
           </p>
         </div>
         <div className="d-flex mb-3 gap-2">
