@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 const Home = () => {
   return (
-    <div className="home-bg">
+    <body className="home-bg">
       <Navbar />
       <main className="home-intro">
         <h1 className="orange-text big-text">Susie Mars</h1>
@@ -45,7 +45,7 @@ const Home = () => {
           <button className="home-btn">See Resume</button>
         </Link>
       </main>
-    </div>
+    </body>
   );
 };
 
