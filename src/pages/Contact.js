@@ -11,7 +11,7 @@ const Contact = () => {
       <ContactNav />
       <div className="d-flex justify-content-center center">
         <div className="contact-info center">
-          <h1>Contact Info:</h1>
+          <h1>Reach out!</h1>
           <div className="d-flex flex-column">
             <div className="d-flex gap-3 align-items-center mr-2">
               <MdMailOutline size={40} />

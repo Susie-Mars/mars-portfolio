@@ -10,19 +10,24 @@ const About = () => {
         <img src={resume} alt="resume" className="resume-image rounded"></img>
         <div className="about-info">
           <h1>About Me</h1>
-          <p>
-            "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum. Duis aute
-            irure dolor in reprehenderit in voluptate velit esse cillum dolore
-            eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-            proident, sunt in culpa qui officia deserunt mollit anim id est
-            laborum."
+          <p className="about-p">
+            Hi, my name is Susie Mars and I'm a full stack developer based in
+            Denver, CO. I spent the last ten years in the beauty and wellness
+            industry, but have always had an interest in software and web
+            development. Over the years, I often had ideas for apps/websites, or
+            had ideas about how pre-existing ones could improve. When
+            researching a career change two years ago, I quickly realized that I
+            finally wanted to take the leap into software and web development.
           </p>
+          <p className="about-p">
+            I attended the Coding Dojo full stack software development program
+            where I learned MERN, Python, and C#. I quickly fell in love with
+            programming and loved how I was able to transfer my creative skills
+            into creating beautiful and functional apps for people to use. As a
+            lifelong puzzle lover, I also enjoyed the problem solving involved,
+            and the rush of endorphins when something finally works.
+          </p>
+          <p className="about-p"></p>
         </div>
       </div>
     </body>

@@ -3,7 +3,9 @@
   --darkOrange: rgb(240, 88, 23);
   --lightOrange: rgb(243, 169, 142);
   --mainPurple: rgb(57, 79, 184);
-  --mainGreen: rgb(21, 155, 34);
+  --mainGreen: rgb(19, 155, 119);
+  --lightGreen: rgb(96, 172, 151);
+  --darkGreen: rgb(13, 95, 21);
   --mainFuschia: rgb(172, 16, 143);
   --kanitFont: "Kanit", sans-serif;
 }
@@ -15,6 +17,7 @@ body {
   height: 100vh; */
   background-position: center;
   -webkit-font-smoothing: antialiased;
+  overflow-x: hidden;
   -moz-osx-font-smoothing: grayscale;
 }
 
@@ -116,6 +119,7 @@ code {
   display: flex;
   font-family: "Raleway", sans-serif;
   margin-bottom: 2rem;
+  padding-right: 0.75rem;
 }
 .nav-three-links a {
   text-transform: capitalize;
@@ -162,7 +166,7 @@ code {
 /* HOME PAGE */
 
 .home-bg {
-  background: url("./images/mars-bg2.jpg") no-repeat center center fixed;
+  background: url("./images/mars-ring.jpg") no-repeat center center fixed;
   background-size: cover;
   background-repeat: no-repeat;
   height: 100vh;
@@ -175,7 +179,7 @@ code {
   display: flex;
   flex-direction: column;
   justify-content: left;
-  margin-top: 5rem;
+  margin-top: 7rem;
   margin-left: 5rem;
   color: white;
 }
@@ -220,14 +224,21 @@ code {
 
 .about-info {
   font-family: var(--kanitFont);
+  background-color: rgba(0, 0, 0, 0.55);
+  padding: 1rem;
+  height: fit-content;
   color: white;
-  font-weight: bold;
+  /* font-weight: bold; */
   margin: 2rem;
   display: flex;
   justify-items: end;
   text-align: end;
   align-items: flex-end;
   flex-direction: column;
+}
+
+.about-p {
+  font-size: 14px;
 }
 
 /* PORTFOLIO */
@@ -240,6 +251,40 @@ code {
   min-height: 100%;
   position: absolute;
   overflow-x: hidden;
+}
+
+.project-image {
+  height: 50vh;
+  width: 100%;
+  border: 1px solid black;
+}
+
+.project-section {
+  background-color: rgba(0, 0, 0, 0.45);
+  color: white;
+  border: 1px dotted white;
+  border-radius: 5px;
+  width: 50vw;
+  padding: 1.2rem;
+  font-family: var(--kanitFont);
+}
+
+.project-titles {
+  color: var(--mainGreen);
+  font-weight: bold;
+}
+
+.project-links a {
+  color: var(--lightGreen);
+  transition: all 0.3s linear;
+}
+.project-links a:hover {
+  color: white;
+}
+
+iframe {
+  width: 100%;
+  height: 250px;
 }
 
 /* ERROR */
