@@ -19,7 +19,7 @@ const Projects = () => {
             ></img>
 
             <p className="mt-2">
-              Cocktail hour is a cocktail recipe website that uses the public
+              Cocktail Hour is a cocktail recipe website that uses the public
               API "The Cocktail DB" to allow users to search the extensive API
               database for recipes by name. Users have the additional option of
               viewing a recipe at random with the push of a button.
@@ -40,11 +40,11 @@ const Projects = () => {
             <iframe src={spamodel} allowfullscreen></iframe>
 
             <p className="mt-2">
-              Spa Model is a wesbite I've wanted to exist for years. It's a site
-              that allows spas and individual providers to login/register to
-              create postings seeking models for training purposes. Users
-              seeking free spa services are then able to browse available
-              services in their area based on service type.
+              Spa Model is a website I've wanted to exist for years. It's a site
+              that allows spas and individual providers to register to create
+              postings seeking models for training purposes. Users seeking free
+              spa services are then able to browse available services in their
+              area based on service type.
             </p>
             <p>
               <span className="project-titles">Technologies used:</span> C#,

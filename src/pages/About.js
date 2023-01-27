@@ -7,7 +7,7 @@ const About = () => {
     <body className="about-bg">
       <NavbarTwo />
       <div className="d-flex justify-content-around m-2">
-        <img src={resume} alt="resume" className="resume-image rounded"></img>
+        <img src={resume} alt="resume" className="resume-image"></img>
         <div className="about-info">
           <h1>About Me</h1>
           <p className="about-p">
@@ -16,7 +16,7 @@ const About = () => {
             industry, but have always had an interest in software and web
             development. Over the years, I often had ideas for apps/websites, or
             had ideas about how pre-existing ones could improve. When
-            researching a career change two years ago, I quickly realized that I
+            researching a career change a year ago, I quickly realized that I
             finally wanted to take the leap into software and web development.
           </p>
           <p className="about-p">
@@ -27,7 +27,10 @@ const About = () => {
             lifelong puzzle lover, I also enjoyed the problem solving involved,
             and the rush of endorphins when something finally works.
           </p>
-          <p className="about-p"></p>
+          <p className="about-p">
+            Here you'll find some of the projects I've created thus far. Hope
+            you enjoy!
+          </p>
         </div>
       </div>
     </body>
