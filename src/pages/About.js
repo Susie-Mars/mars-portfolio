@@ -1,13 +1,20 @@
 import React from "react";
 import NavbarTwo from "../components/NavbarTwo";
 import resume from "../images/susie.mars.resume.jan.2023.jpg";
+import resumedl from "../files/susie.mars.resume.jan.2023 (1).pdf";
 
 const About = () => {
   return (
     <body className="about-bg">
       <NavbarTwo />
       <div className="d-flex justify-content-around m-2">
-        <img src={resume} alt="resume" className="resume-image"></img>
+        <div className="d-flex justify-content-center flex-column text-center">
+          <a href={resumedl} download>
+            <button className="resume-btn">Download Resume</button>
+          </a>
+          <img src={resume} alt="resume" className="resume-image"></img>
+        </div>
+
         <div className="about-info">
           <h1>About Me</h1>
           <p className="about-p">

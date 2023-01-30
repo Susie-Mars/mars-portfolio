@@ -3,6 +3,7 @@
   --darkOrange: rgb(240, 88, 23);
   --lightOrange: rgb(243, 169, 142);
   --mainPurple: rgb(57, 79, 184);
+  --lightPurple: rgb(90, 105, 181);
   --mainGreen: rgb(19, 155, 119);
   --lightGreen: rgb(96, 172, 151);
   --darkGreen: rgb(13, 95, 21);
@@ -239,6 +240,21 @@ code {
 
 .about-p {
   font-size: 15px;
+}
+
+.resume-btn {
+  border: 1px solid black;
+  color: white;
+  border-radius: 5px;
+  padding: 0.3rem;
+  transition: all 0.3s linear;
+  background-color: var(--mainPurple);
+}
+
+.resume-btn:hover {
+  background-color: var(--lightPurple);
+  border: 1px solid black;
+  color: white;
 }
 
 /* PORTFOLIO */
