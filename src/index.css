@@ -3,7 +3,7 @@
   --darkOrange: rgb(240, 88, 23);
   --lightOrange: rgb(243, 169, 142);
   --mainPurple: rgb(57, 79, 184);
-  --lightPurple: rgb(90, 105, 181);
+  --lightPurple: rgb(108, 120, 179);
   --mainGreen: rgb(19, 155, 119);
   --lightGreen: rgb(96, 172, 151);
   --darkGreen: rgb(13, 95, 21);
@@ -84,6 +84,15 @@ code {
 
 .nav-links a:hover {
   color: var(--mainOrange);
+}
+
+.nav-title-link {
+  text-decoration: none;
+  color: white;
+}
+.nav-title-link:hover {
+  text-decoration: none;
+  color: white;
 }
 
 .nav-two-span {
@@ -248,11 +257,11 @@ code {
   border-radius: 5px;
   padding: 0.3rem;
   transition: all 0.3s linear;
-  background-color: var(--mainPurple);
+  background-color: var(--lightPurple);
 }
 
 .resume-btn:hover {
-  background-color: var(--lightPurple);
+  background-color: var(--mainPurple);
   border: 1px solid black;
   color: white;
 }

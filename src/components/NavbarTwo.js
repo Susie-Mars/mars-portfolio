@@ -6,7 +6,9 @@ const NavbarTwo = () => {
     <nav className="navbar">
       <div className="d-flex gap-2">
         <h1 className="navbar-header">
-          Red<span className="nav-two-span">Planet</span>Dev
+          <a href="/" className="nav-title-link">
+            Red<span className="nav-two-span">Planet</span>Dev
+          </a>
         </h1>
       </div>
       <div className="nav-two-links">
