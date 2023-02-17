@@ -257,11 +257,11 @@ code {
   border-radius: 5px;
   padding: 0.3rem;
   transition: all 0.3s linear;
-  background-color: var(--lightPurple);
+  background-color: var(--mainPurple);
 }
 
 .resume-btn:hover {
-  background-color: var(--mainPurple);
+  background-color: var(--lightPurple);
   border: 1px solid black;
   color: white;
 }
