@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.64c7f08e.css",
-    "main.js": "/static/js/main.1368ca7c.js",
+    "main.css": "/static/css/main.e6126a13.css",
+    "main.js": "/static/js/main.215d4637.js",
     "static/js/787.4cf1e6f0.chunk.js": "/static/js/787.4cf1e6f0.chunk.js",
     "static/media/spamodeljan23 (2).mp4": "/static/media/spamodeljan23 (2).7bdbcea8b3f0148b70ac.mp4",
     "static/media/cocktail-hour-ss.png": "/static/media/cocktail-hour-ss.9318fbdd81748fab96f3.png",
@@ -9,17 +9,17 @@
     "static/media/mars-ring.jpg": "/static/media/mars-ring.17b0ce26f1e9fd854f0e.jpg",
     "static/media/pink-galaxy.jpg": "/static/media/pink-galaxy.6faf37bb36ea7a252a29.jpg",
     "static/media/stars-bg.jpg": "/static/media/stars-bg.b22c56e7646a101c2c3f.jpg",
-    "static/media/green-bg.jpg": "/static/media/green-bg.7739be750ab0620e0b60.jpg",
+    "static/media/green-space.jpg": "/static/media/green-space.cdece2edbbf992e22efd.jpg",
     "static/media/susie.mars.resume.feb.2023.pdf": "/static/media/susie.mars.resume.feb.2023.1901b336b4ba9f68e6d1.pdf",
     "static/media/grocery-list.png": "/static/media/grocery-list.dc7dbe150eedc3196821.png",
     "static/media/lost-astro.jpg": "/static/media/lost-astro.317d14f43a0a4dc30337.jpg",
     "index.html": "/index.html",
-    "main.64c7f08e.css.map": "/static/css/main.64c7f08e.css.map",
-    "main.1368ca7c.js.map": "/static/js/main.1368ca7c.js.map",
+    "main.e6126a13.css.map": "/static/css/main.e6126a13.css.map",
+    "main.215d4637.js.map": "/static/js/main.215d4637.js.map",
     "787.4cf1e6f0.chunk.js.map": "/static/js/787.4cf1e6f0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.64c7f08e.css",
-    "static/js/main.1368ca7c.js"
+    "static/css/main.e6126a13.css",
+    "static/js/main.215d4637.js"
   ]
 }
