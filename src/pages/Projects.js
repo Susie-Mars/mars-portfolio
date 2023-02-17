@@ -23,7 +23,7 @@ const Projects = () => {
               Cocktail Hour is a cocktail recipe website that uses the public
               API "The Cocktail DB" to allow users to search the extensive API
               database for recipes by name. Users have the additional option of
-              viewing a recipe at random with the push of a button.
+              viewing a recipe at random with the click of a button.
             </p>
             <p>
               <span className="project-titles">Technologies used:</span>{" "}
@@ -72,7 +72,7 @@ const Projects = () => {
               list app that allows users to add to, edit or delete their grocery
               list. I also added a slider for users to toggle between a light
               and dark theme and alerts when a user either successfully
-              adds/edits an item or leaves the input field blank.{" "}
+              adds/edits/deletes an item or leaves the input field blank.{" "}
             </p>
             <p>
               <span className="project-titles">Technologies used:</span>{" "}

@@ -269,12 +269,13 @@ code {
 /* PORTFOLIO */
 .projects-bg {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-    url("./images/green-bg.jpg");
+    url("./images/green-space.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  background-position: center;
   width: 100vw;
   min-height: 100%;
-  position: absolute;
+  /* position: absolute; */
   overflow-x: hidden;
 }
 
@@ -285,7 +286,7 @@ code {
 }
 
 .project-section {
-  background-color: rgba(0, 0, 0, 0.45);
+  background-color: rgba(0, 0, 0, 0.65);
   color: white;
   border: 1px dotted white;
   border-radius: 5px;
