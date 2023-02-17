@@ -69,9 +69,10 @@ const Projects = () => {
 
             <p className="mt-2">
               Ah, the classic List project. Using ReactJS, I created a grocery
-              list app that allows users to add to, edit or delete their list of
-              groceries. I also added a slider for users to toggle between a
-              light and dark theme.{" "}
+              list app that allows users to add to, edit or delete their grocery
+              list. I also added a slider for users to toggle between a light
+              and dark theme and alerts when a user either successfully
+              adds/edits an item or leaves the input field blank.{" "}
             </p>
             <p>
               <span className="project-titles">Technologies used:</span>{" "}
