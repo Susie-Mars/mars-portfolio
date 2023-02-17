@@ -1,7 +1,7 @@
-import React from "react";
+import React, { useState } from "react";
 import NavbarTwo from "../components/NavbarTwo";
-import resume from "../images/susie.mars.resume.jan.2023.jpg";
-import resumedl from "../files/susie.mars.resume.jan.2023 (1).pdf";
+import resume from "../images/susie.mars.resume.feb.2023.jpg";
+import resumepdf from "../files/susie.mars.resume.feb.2023.pdf";
 
 const About = () => {
   return (
@@ -9,7 +9,7 @@ const About = () => {
       <NavbarTwo />
       <div className="d-flex justify-content-around m-3">
         <div className="d-flex justify-content-center flex-column text-center">
-          <a href={resumedl} download>
+          <a href={resumepdf} download>
             <button className="resume-btn">Download Resume</button>
           </a>
           <img src={resume} alt="resume" className="resume-image"></img>

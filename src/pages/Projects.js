@@ -3,6 +3,7 @@ import ProjNavbar from "../components/ProjNavbar";
 import cocktailhour from "../images/cocktail-hour-ss.png";
 // import spamodel from "../images/spa-model-ss.png";
 import spamodel from "../media/spamodeljan23 (2).mp4";
+import grocery from "../images/grocery-list.png";
 
 const Projects = () => {
   return (
@@ -42,9 +43,11 @@ const Projects = () => {
             <p className="mt-2">
               Spa Model is a website I've wanted to exist for years. It's a site
               that allows spas and individual providers to register to create
-              postings seeking models for training purposes. Users seeking free
-              spa services are then able to browse available services in their
-              area based on service type.
+              postings seeking models for training purposes. Login/Registration
+              includes user validations, and a MySQL database was used to store
+              user credentials, and hash user passwords. Users seeking free spa
+              services are then able to browse available services in their area
+              based on service type.
             </p>
             <p>
               <span className="project-titles">Technologies used:</span> C#,
@@ -52,6 +55,32 @@ const Projects = () => {
             </p>
             <div className="d-flex justify-content-center project-links gap-3">
               <a href="https://github.com/Susie-Mars/spamodel">Github</a>
+            </div>
+          </div>
+          <div className="project-section mb-5">
+            <h3 className="text-center project-titles">
+              Grocery List with Dark/Light theme slider
+            </h3>
+            <img
+              src={grocery}
+              alt="grocery list"
+              className="project-image"
+            ></img>
+
+            <p className="mt-2">
+              Ah, the classic List project. Using ReactJS, I created a grocery
+              list app that allows users to add to, edit or delete their list of
+              groceries. I also added a slider for users to toggle between a
+              light and dark theme.{" "}
+            </p>
+            <p>
+              <span className="project-titles">Technologies used:</span>{" "}
+              Javascript, ReactJS, CSS, HTML
+            </p>
+            <div className="d-flex justify-content-center project-links gap-3">
+              <a href="https://github.com/Susie-Mars/grocery-list">Github</a>
+              <p>|</p>
+              <a href="https://grocery-list-theme.netlify.app">Link</a>
             </div>
           </div>
         </section>

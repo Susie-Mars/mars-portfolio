@@ -210,7 +210,7 @@ code {
 .home-btn:hover {
   background-color: var(--mainOrange);
   border: 1px solid white;
-  color: white;
+  color: black;
 }
 
 /* ABOUT */

@@ -15,8 +15,8 @@ const Contact = () => {
           <div className="d-flex flex-column">
             <div className="d-flex gap-3 align-items-center mr-2">
               <MdMailOutline size={40} />
-              <a href="mailto:susiemars822@gmail.com" className="contact-links">
-                susiemars822@gmail.com
+              <a href="mailto:susiemarsdev@gmail.com" className="contact-links">
+                susiemarsdev@gmail.com
               </a>
             </div>
             <div className="d-flex gap-3 align-items-center">
