@@ -1,7 +1,6 @@
 import React from "react";
 import ProjNavbar from "../components/ProjNavbar";
 import cocktailhour from "../images/cocktail-hour-ss.png";
-// import spamodel from "../images/spa-model-ss.png";
 import spamodel from "../media/spamodeljan23 (2).mp4";
 import grocery from "../images/grocery-list.png";
 
@@ -38,7 +37,7 @@ const Projects = () => {
           </div>
           <div className="project-section mb-5">
             <h3 className="text-center project-titles">Spa Model</h3>
-            <iframe src={spamodel} allowfullscreen></iframe>
+            <iframe src={spamodel} allowfullscreen title="spa model"></iframe>
 
             <p className="mt-2">
               Spa Model is a website I've wanted to exist for years. It's a site

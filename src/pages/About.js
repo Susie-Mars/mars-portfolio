@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import NavbarTwo from "../components/NavbarTwo";
 import resume from "../images/susie.mars.resume.feb.2023.jpg";
 import resumepdf from "../files/susie.mars.resume.feb.2023.pdf";

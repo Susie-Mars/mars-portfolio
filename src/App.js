@@ -7,7 +7,6 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Projects from "./pages/Projects";
 import Error from "./pages/Error";
-import Navbar from "./components/Navbar";
 
 function App() {
   return (
