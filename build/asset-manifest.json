@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.e6126a13.css",
-    "main.js": "/static/js/main.b23859c7.js",
+    "main.js": "/static/js/main.fa678cb1.js",
     "static/js/787.4cf1e6f0.chunk.js": "/static/js/787.4cf1e6f0.chunk.js",
     "static/media/spamodeljan23 (2).mp4": "/static/media/spamodeljan23 (2).7bdbcea8b3f0148b70ac.mp4",
     "static/media/cocktail-hour-ss.png": "/static/media/cocktail-hour-ss.9318fbdd81748fab96f3.png",
@@ -15,11 +15,11 @@
     "static/media/lost-astro.jpg": "/static/media/lost-astro.317d14f43a0a4dc30337.jpg",
     "index.html": "/index.html",
     "main.e6126a13.css.map": "/static/css/main.e6126a13.css.map",
-    "main.b23859c7.js.map": "/static/js/main.b23859c7.js.map",
+    "main.fa678cb1.js.map": "/static/js/main.fa678cb1.js.map",
     "787.4cf1e6f0.chunk.js.map": "/static/js/787.4cf1e6f0.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6126a13.css",
-    "static/js/main.b23859c7.js"
+    "static/js/main.fa678cb1.js"
   ]
 }
