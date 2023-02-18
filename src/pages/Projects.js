@@ -2,7 +2,7 @@ import React from "react";
 import ProjNavbar from "../components/ProjNavbar";
 import cocktailhour from "../images/cocktail-hour-ss.png";
 import spamodel from "../media/spamodeljan23 (2).mp4";
-import grocery from "../images/grocery-list.png";
+import grocery from "../images/grocery-list-1.png";
 
 const Projects = () => {
   return (
