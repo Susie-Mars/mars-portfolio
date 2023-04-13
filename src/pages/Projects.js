@@ -8,8 +8,8 @@ const Projects = () => {
   return (
     <body className="projects-bg">
       <ProjNavbar />
-      <div className="d-flex justify-content-center align-items-center flex-column">
-        <section>
+      <div className="d-flex justify-content-center align-items-center flex-column ">
+        <section className="port-max">
           <div className="project-section mb-5">
             <h3 className="text-center project-titles">Cocktail Hour</h3>
             <img
