@@ -3,7 +3,6 @@ import ContactNav from "../components/ContactNav";
 import { MdMailOutline } from "react-icons/md";
 import { DiGithubBadge } from "react-icons/di";
 import { FaLinkedin } from "react-icons/fa";
-import { BsTelephone } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -33,10 +32,6 @@ const Contact = () => {
               >
                 LinkedIn
               </a>
-            </div>
-            <div className="d-flex gap-4 align-items-center mt-1 ml-2">
-              <BsTelephone size={32} />
-              <p className="ml-3">303-666-3276</p>
             </div>
           </div>
         </div>

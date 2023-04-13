@@ -7,7 +7,7 @@ const About = () => {
   return (
     <body className="about-bg">
       <NavbarTwo />
-      <div className="d-flex justify-content-around m-3 about-max">
+      <div className="d-flex justify-content-around about-max">
         <div className="d-flex justify-content-center flex-column text-center">
           <a href={resumepdf} download>
             <button className="resume-btn">Download Resume</button>
