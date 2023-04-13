@@ -215,6 +215,17 @@ code {
 
 /* ABOUT */
 
+@media screen and (max-width: 600px) {
+  .about-max {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .resume-image {
+    max-width: 100vw;
+  }
+}
+
 .about-bg {
   background: url("./images/stars-bg.jpg");
   background-size: cover;
